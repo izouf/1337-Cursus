@@ -24,11 +24,11 @@
 | 1 | [get next line](./C/get_next_line) | C | 70 hours | 882 | [![izouf's 42 get_next_line Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2406425)](./C/subjects/get_next_line.pdf) | 1.57 |
 | 1 | [ft_printf](./C/ft_printf) | C | 175 hours | 882 | [![izouf's 42 ft_printf Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2412185)](./C/subjects/ft_printf.pdf) | 2.05 |
 | 1 | Born2beRoot | Virtual Machine | 40 hours | 577 | [![izouf's 42 Born2beRoot Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2427091)](./C/subjects/Born2beRoot.pdf) | 2.28 |
-| 1 | Exam Rank 02 | C | 2 hours | 0 | [![izouf's 42 Exam Rank 02 Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2444468)]() | 2.25 |
+| 1 | Exam Rank 02 | C | 2 hours | 0 | [![izouf's 42 Exam Rank 02 Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2444468)]() | 2.28 |
 | 2 | [push_swap](./C/push_swap) | C | 60 hours | 1855 | [![izouf's 42 push_swap Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2446961)](./C/subjects/push_swap.pdf) | 3.02 |
 | 2 | [so_long](./C/so_long) | C - mlx | 60 hours | 1000 | [![izouf's 42 so_long Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2448566)](./C/subjects/so_long.pdf) | 3.24 |
 | 2 | [minitalk](./C/minitalk) | C | 50 hours | 1142 | [![izouf's 42 minitalk Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2458818)](./C/subjects/minitalk.pdf) | 3.49 |
-| 2 | Exam Rank 03 | C | 2 hours | 0 | [![izouf's 42 Exam Rank 02 Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2524755)]() | 3.44 |
+| 2 | Exam Rank 03 | C | 2 hours | 0 | [![izouf's 42 Exam Rank 02 Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2524755)]() | 3.49 |
 | 3 | [Philosophers](./C/philosophers) | C | 70 hours | 3360 | [![izouf's 42 philo Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2473179)](./C/subjects/philosophers.pdf) | 4.08 |
 | 3 | [minishell](./C/minishell) | C | 210 hours | 2814 | [![izouf's 42 minishell Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2527028)](./C/subjects/minishell.pdf) | 4.29 |
 | 4 | NetPractice | Networking | 50 hours | 3160 | [![izouf's 42 NetPractice Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2539505)](./C/subjects/net_practice.pdf) | 4.47 |
