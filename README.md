@@ -23,7 +23,7 @@
 | 0 | [libft](./C/libft) | C | 70 hours | 462 | [![izouf's 42 Libft Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2395586)](./C/subjects/libft.pdf) | 1.06 |
 | 1 | [get next line](./C/get_next_line) | C | 70 hours | 882 | [![izouf's 42 get_next_line Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2406425)](./C/subjects/get_next_line.pdf) | 1.57 |
 | 1 | [ft_printf](./C/ft_printf) | C | 175 hours | 882 | [![izouf's 42 ft_printf Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2412185)](./C/subjects/ft_printf.pdf) | 2.05 |
-| 1 | Born2beRoot | Virtual Machine | 40 hours | 577 | [![izouf's 42 Born2beRoot Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2427091)](./C/subjects/Born2beRoot.pdf) | 2.28 |
+| 1 | Born2beRoot | Virtual Machine | 40 hours | 577 | [![izouf's 42 Born2beRoot Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2427091)](./C/subjects/born2beroot.pdf) | 2.28 |
 | 1 | Exam Rank 02 | C | 2 hours | 0 | [![izouf's 42 Exam Rank 02 Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2444468)]() | 2.28 |
 | 2 | [push_swap](./C/push_swap) | C | 60 hours | 1855 | [![izouf's 42 push_swap Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2446961)](./C/subjects/push_swap.pdf) | 3.02 |
 | 2 | [so_long](./C/so_long) | C - mlx | 60 hours | 1000 | [![izouf's 42 so_long Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2448566)](./C/subjects/so_long.pdf) | 3.24 |
