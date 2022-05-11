@@ -33,5 +33,5 @@
 | 3 | [minishell](./C/minishell) | C | 210 hours | 2814 | [![izouf's 42 minishell Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2527028)](./C/subjects/minishell.pdf) | 4.29 |
 | 4 | NetPractice | Networking | 50 hours | 3160 | [![izouf's 42 NetPractice Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2539505)](./C/subjects/net_practice.pdf) | 4.47 |
 | 4 | [cub3d](./C/cub3d) | C - mlx | 280 hours | 5775 | [![izouf's 42 cub3D Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2543397)](./C/subjects/cub3D.pdf) | 4.91 |
-| 4 | [CPP Module 00](./C/cub3d) | C - mlx | 280 hours | 0 | [[![izouf's 42 CPP Module 00 Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2575309)]](./CPP/subjects/CPPModule.pdf) | 4.91 |
+| 4 | [CPP Module 00](./C/cub3d) | C - mlx | 280 hours | 7 | [![izouf's 42 CPP Module 00 Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2575309)](./CPP/subjects/CPPModule.pdf) | 4.91 |
 
