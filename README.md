@@ -34,6 +34,6 @@
 | 4 | NetPractice | Networking | 50 hours | 3160 | [![izouf's 42 NetPractice Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2539505)](./C/subjects/netpractice.pdf) | 4.47 |
 | 4 | [cub3d](./C/cub3d) | C - mlx | 280 hours | 5775 | [![izouf's 42 cub3D Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2543397)](./C/subjects/cub3D.pdf) | 4.91 |
 | 4 | [CPP Module 00](./cpp/Module00) | CPP | 7 hours | 0 | [![izouf's 42 CPP Module 00 Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2575309)](./cpp/subjects/Module00.pdf) | 4.91 |
-| 4 | [CPP Module 01](./cpp/Module01) | CPP | 7 hours | 0 | [![izouf's 42 CPP Module 01 Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2586897)](./cpp/subjects/Module01.pdf) | 4.91 |
+| 4 | [ CPP Module 01](./cpp/Module01) | CPP | 7 hours | 0 | [![izouf's 42 CPP Module 01 Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2586897)](./cpp/subjects/Module01.pdf) | 4.91 |
 | 4 | [CPP Module 02](./cpp/Module02) | CPP | 7 hours | 0 | [![izouf's 42 CPP Module 02 Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2592075)](./cpp/subjects/Module02.pdf) | 4.91 |
 | 4 | [CPP Module 03](./cpp/Module03) | CPP | 7 hours | 0 | [![izouf's 42 CPP Module 03 Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2596361)](./cpp/subjects/Module03.pdf) | 4.91 |
