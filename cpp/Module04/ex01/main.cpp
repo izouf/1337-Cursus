@@ -53,15 +53,22 @@ int main()
         a->setIdea(i, "Time to be cute and get some food from those annoying humans ! :3" );
     
     *b = *a;
+    delete (a);
     b->getIdeas();
     std::cout << "----------------------------------" << std::endl;
     b->setIdea(99, "Time to sleep ! :3");
     b->setIdea(100, "nope !");
     b->getIdeas();
     std::cout << "----------------------------------" << std::endl;
-    a->getIdeas();
     std::cout << "----------------------------------" << std::endl;
-    delete (a);
     delete (b);
+
+   /* Dog base;
+    base.setIdea(0, "Waf Waf");
+    {
+        Dog tmp = base;
+        tmp.getIdeas();
+    }
+    base.getIdeas();*/
     return (0);
 }

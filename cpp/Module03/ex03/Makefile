@@ -1,4 +1,4 @@
-SRCS	=	ClapTrap.cpp main.cpp ScavTrap.cpp FragTrap.cpp
+SRCS	=	ClapTrap.cpp main.cpp ScavTrap.cpp FragTrap.cpp DiamondTrap.cpp
 
 CFLAGS	=	-Wall -Wextra -Werror -std=c++98
 
@@ -8,7 +8,7 @@ NAME	=	Main
 
 all		:	${NAME}
 
-${NAME}	:	${SRCS} ClapTrap.hpp ScavTrap.hpp FragTrap.hpp
+${NAME}	:	${SRCS} ClapTrap.hpp ScavTrap.hpp FragTrap.hpp DiamondTrap.hpp
 	${CC} ${CFLAGS} ${SRCS} -o ${NAME}
 
 clean	:

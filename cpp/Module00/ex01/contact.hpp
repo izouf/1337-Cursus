@@ -14,8 +14,8 @@ private:
     std::string phoneNumber;
     std::string darkestSecret;
 public:
-    Contact() {};
-    ~Contact() {};
+    Contact();
+    ~Contact();
     void    setFirstName(const std::string str);
     void    setLastName(const std::string str);
     void    setNickName(const std::string str);

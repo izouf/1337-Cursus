@@ -14,9 +14,10 @@ ScavTrap::ScavTrap(std::string name)
     std::cout << "ScavTrap Constructor Called !" << std::endl;
 }
 
-ScavTrap::ScavTrap (ScavTrap const &)
+ScavTrap::ScavTrap (const ScavTrap &copy)
 {
     std::cout << "ScavTrap Copy Constructor  Called !" << std::endl;
+    *this = copy;
 }
 
 ScavTrap::~ScavTrap()
@@ -57,7 +58,7 @@ void    ScavTrap::guardGate( void )
         std::cout << "ScavTrap " << this->name << " Has no energy !" << std::endl;
     else
     {
-        std::cout << this->name <<" -------- Gate Keeper Mode On --------" << std::endl;
+        std::cout << this->name <<" -------- Gate Keeper Mode On ! --------" << std::endl;
         this->EnergyPoints--;
     }
 }

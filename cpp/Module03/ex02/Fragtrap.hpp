@@ -2,11 +2,15 @@
 
 #include "ClapTrap.hpp"
 
-class Fragtrap
+class FragTrap : public ClapTrap
 {
-private:
-    /* data */
-public:
-    Fragtrap(/* args */);
-    ~Fragtrap();
+    public:
+        FragTrap();
+        FragTrap(std::string name);
+        FragTrap( const FragTrap &copy);
+        ~FragTrap();
+        FragTrap    &operator=(const FragTrap &copy);
+
+        void attack(const std::string& target);
+        void highFivesGuys(void);    
 };

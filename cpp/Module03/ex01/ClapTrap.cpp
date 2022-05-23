@@ -60,8 +60,6 @@ void    ClapTrap::beRepaired(unsigned int amount)
         std::cout << "ClapTrap " << this->name << " is Aleady dead !" << std::endl;
     else if (this->EnergyPoints <= 0)
         std::cout << "ClapTrap " << this->name << " Has no energy !" << std::endl;
-    else if (this->hitPoints >= 10)
-        std::cout << "ClapTrap " << this->name << " Has Full hp !" << std::endl;
     else
     {
         std::cout << "ClapTrap " << this->name << " Has repaired " << amount << " point of damage !" << std::endl;
