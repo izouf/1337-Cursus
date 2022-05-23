@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: momayaz <momayaz@student.42.fr>            +#+  +:+       +#+        */
+/*   By: izouf <izouf@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/25 23:32:21 by momayaz           #+#    #+#             */
-/*   Updated: 2022/04/25 23:33:51 by momayaz          ###   ########.fr       */
+/*   Updated: 2022/05/22 18:14:57 by izouf            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ void	ft_swap(t_pair	**sprites, int amount)
 {
 	int		tmp1;
 	float	tmp2;
-	int		i;
+	int		i; 
 	int		j;
 
 	i = -1;
