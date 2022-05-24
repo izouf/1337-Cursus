@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "ostream": "cpp",
         "__bit_reference": "cpp",
         "__config": "cpp",
         "__debug": "cpp",
@@ -45,7 +46,6 @@
         "memory": "cpp",
         "mutex": "cpp",
         "new": "cpp",
-        "ostream": "cpp",
         "ratio": "cpp",
         "sstream": "cpp",
         "stdexcept": "cpp",

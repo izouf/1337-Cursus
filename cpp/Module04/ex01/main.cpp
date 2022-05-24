@@ -63,7 +63,7 @@ int main()
     std::cout << "----------------------------------" << std::endl;
     delete (b);
 
-   /* Dog base;
+    /*Dog base;
     base.setIdea(0, "Waf Waf");
     {
         Dog tmp = base;

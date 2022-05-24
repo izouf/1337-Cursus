@@ -10,6 +10,8 @@ int main()
     ScavTrap    s1("Guard 1");
     FragTrap    f1("Frag 1");
 
+    ClapTrap *nw = new FragTrap();
+
     s1.guardGate();
     p1.attack("Player 2");
     p2.takeDamage(5);

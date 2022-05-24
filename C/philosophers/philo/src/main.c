@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: izouf <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: izouf <izouf@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/14 09:14:37 by izouf             #+#    #+#             */
-/*   Updated: 2022/03/04 13:56:28 by izouf            ###   ########.fr       */
+/*   Updated: 2022/05/24 09:55:36 by izouf            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "../includes/philo.h"
 
+
+#include "../includes/philo.h"
 static void	ft_join(t_info *info)
 {
 	int	i;
@@ -63,5 +64,6 @@ int	main(int argc, char **argv)
 	ft_init(&info);
 	ft_create(&info);
 	ft_join(&info);
+	printf("Hello\n");
 	return (0);
 }
