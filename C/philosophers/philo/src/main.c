@@ -6,7 +6,7 @@
 /*   By: izouf <izouf@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/14 09:14:37 by izouf             #+#    #+#             */
-/*   Updated: 2022/05/24 09:55:36 by izouf            ###   ########.fr       */
+/*   Updated: 2022/05/24 18:27:52 by izouf            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,6 +64,5 @@ int	main(int argc, char **argv)
 	ft_init(&info);
 	ft_create(&info);
 	ft_join(&info);
-	printf("Hello\n");
 	return (0);
 }

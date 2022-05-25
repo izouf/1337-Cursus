@@ -1,4 +1,5 @@
 #include "Bureaucrat.hpp"
+#include <iostream>
 
 int main()
 {
@@ -15,7 +16,7 @@ int main()
 	}
 	catch(const std::exception& e)
 	{
-		std::cerr << e.what() << '\n';
+		std::cout << e.what() << std::endl;
 	}
 	
 	std::cout << "-----------------" << std::endl;

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: izouf <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: izouf <izouf@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/23 07:51:49 by izouf             #+#    #+#             */
-/*   Updated: 2022/03/04 17:55:26 by izouf            ###   ########.fr       */
+/*   Updated: 2022/05/25 10:12:38 by izouf            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,7 @@ int	main(int argc, char **argv)
 	ft_fork(&info);
 	if (info.m_eat)
 		pthread_create(&thread, NULL, ft_check_finish, &info);
-	pthread_create(&thread, NULL, ft_stop, &info);
+	pthread_create(&thread, NULL, ft_stop, &info);	
 	ft_join(&info);
 	return (0);
 }

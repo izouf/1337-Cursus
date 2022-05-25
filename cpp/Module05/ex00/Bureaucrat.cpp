@@ -51,21 +51,6 @@ void Bureaucrat::decrementGrade()
     this->grade++;
 }
 
-void    Bureaucrat::signForm(Form &form)const
-{
-    if (form.isSigned())
-    {
-        std::cout << *this << " couldn't sign " << form << " because the form is already signed." << std::endl;
-    }
-    else if (form.getSignGrade() < this->grade)
-    {
-        std::cout << *this << " couldn't sign " << form << " because it's grade is too low." << std::endl; 
-    }
-    else
-        std::cout << *this << " signs " << form << std::endl;
-    form.beSigned(*this);
-}
-
 std::ostream &operator<<(std::ostream &out, const Bureaucrat &bureaucrat)
 {
 	out << bureaucrat.getName() <<  ", bureaucrat grade " << bureaucrat.getGrade();

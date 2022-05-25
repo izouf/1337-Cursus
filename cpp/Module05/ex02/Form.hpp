@@ -22,6 +22,7 @@ class   Form
                  return ("BureaucratException : Grade too High");
             }
         };
+
         class   GradeTooLowException : public std::exception
         {
             virtual const char* what() const throw()
@@ -29,6 +30,7 @@ class   Form
                 return ("BureaucratException : Grade too High");
             }
         };
+
         class   FormAlreadySignedException : public std::exception
         {
             virtual const char* what() const throw()
@@ -36,14 +38,24 @@ class   Form
                 return ("FormException: The Form is already signed");
             }
         };
+
+        class   UnsignedFormException : public std::exception
+        {
+            virtual const char* what() const throw()
+            {
+                return ("FormException: Unsigned form can not be executed");
+            }
+        };
+
         Form   &operator=(const Form &src);
 
         const std::string   &getName()const;
-        bool                isSigned()const;
+        virtual bool        isSigned()const;
         int                 getSignGrade()const;
         int                 getExecuteGrade()const;
 
         void                beSigned(const Bureaucrat &bureaucrat); 
+        virtual void        execute(Bureaucrat const &bureaucrat)const = 0;
 };
 
 std::ostream &operator<<(std::ostream &out, Form const &form);
