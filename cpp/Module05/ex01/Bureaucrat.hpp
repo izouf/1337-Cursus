@@ -27,7 +27,7 @@ class Bureaucrat
         {
             virtual const char* what() const throw()
             {
-                return ("BureaucratException : Grade too High");
+                return ("BureaucratException : Grade too Low");
             }
         };
 

@@ -30,7 +30,7 @@ void    RobotomyRequestForm::execute(const Bureaucrat &executor) const
 {
     Form::execute(executor);
     std::cout << "**** !@#$%^&*()_++_)(*&^%$#!@! ****" << std::endl;
-    if ((rand() % 1))
+    if ((rand() % 2))
         std::cout << this->target << " has been robotomized successfully" << std::endl;
     else
         std::cout << this->target << " Robotomization Failed !" << std::endl;

@@ -1,6 +1,6 @@
 #include "Form.hpp"
 
-Form::Form() : name("Default"), signGrade(150), executeGrade(150), sign(false)
+Form::Form() : name("Default"), sign(false), signGrade(150), executeGrade(150)
 {
 }
 
