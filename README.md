@@ -37,3 +37,5 @@
 | 4 | [CPP Module 01](./cpp/Module01) | CPP | 7 hours | 0 | [![izouf's 42 CPP Module 01 Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2586897)](./cpp/subjects/Module01.pdf) | 4.91 |
 | 4 | [CPP Module 02](./cpp/Module02) | CPP | 7 hours | 0 | [![izouf's 42 CPP Module 02 Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2592075)](./cpp/subjects/Module02.pdf) | 4.91 |
 | 4 | [CPP Module 03](./cpp/Module03) | CPP | 7 hours | 0 | [![izouf's 42 CPP Module 03 Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2596361)](./cpp/subjects/Module03.pdf) | 4.91 |
+| 4 | [CPP Module 04](./cpp/Module04) | CPP | 7 hours | 0 | [![izouf's 42 CPP Module 04 Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2596823)](./cpp/subjects/Module04.pdf) | 4.91 |
+| 4 | [CPP Module 05](./cpp/Module05) | CPP | 7 hours | 0 | [![izouf's 42 CPP Module 05 Score](https://badge42.vercel.app/api/v2/cl2hpsl0o001109lbcaoj72v9/project/2598599)](./cpp/subjects/Module05.pdf) | 4.91 |
