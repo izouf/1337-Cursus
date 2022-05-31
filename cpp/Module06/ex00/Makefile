@@ -1,14 +1,14 @@
-SRCS	=	main.cpp converter.cpp
+SRCS	=	main.cpp Converter.cpp
 
 CFLAGS	=	-Wall -Wextra -Werror -std=c++98
 
 CC		=	c++
 
-NAME	=	Main
+NAME	=	Converter
 
 all		:	${NAME}
 
-${NAME}	:	${SRCS} converter.hpp
+${NAME}	:	${SRCS} Converter.hpp
 	${CC} ${CFLAGS} ${SRCS} -o ${NAME}
 
 clean	:
