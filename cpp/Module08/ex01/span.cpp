@@ -1,8 +1,8 @@
 #include "span.hpp"
 
-Span::Span(): size(0){}
+Span::Span(): size(0), pos(0){}
 
-Span::Span(unsigned int N) : size(N)
+Span::Span(unsigned int N) : size(N), pos(0)
 {
     this->storage.reserve(this->getSize());
 }
@@ -20,7 +20,7 @@ Span    &Span::operator=(const Span &src)
     {
         this->size = src.size;
         this->storage = src.storage;
-
+        this->pos = src.pos;
     }
     return (*this);
 }
@@ -30,6 +30,7 @@ void    Span::addNumber(int number)
     if (this->storage.size() == this->size)
 		throw (Span::FullArrayException());
     this->storage.push_back(number);
+    pos++;
 }
 
 unsigned int    Span::shortestSpan()const
@@ -74,7 +75,8 @@ void Span::addNumber(std::vector<int>::iterator const &begin, std::vector<int>::
 {
 	int d = std::distance(begin, end);
 
-	if (d > static_cast<int>(size))
+	if (d > static_cast<int>(this->size - this->pos))
 		throw Span::FullArrayException();
 	storage.insert(storage.end(), begin, end);
+    pos += d;
 }

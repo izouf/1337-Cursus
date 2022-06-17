@@ -12,6 +12,7 @@ class Span
     private:
         std::vector<int>    storage;
         unsigned int        size;
+        unsigned int        pos;
     public:
         Span();
         Span(unsigned int N);
