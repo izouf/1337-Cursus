@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   init.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: momayaz <momayaz@student.42.fr>            +#+  +:+       +#+        */
+/*   By: izouf <izouf@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/25 23:00:20 by momayaz           #+#    #+#             */
-/*   Updated: 2022/04/26 16:34:13 by momayaz          ###   ########.fr       */
+/*   Updated: 2022/07/26 17:31:43 by izouf            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,23 +59,23 @@ static void	ft_init_d(t_raycast **ray, char c)
 		ray[0]->dirx = 1;
 		ray[0]->diry = 0;
 		ray[0]->planex = 0;
-		ray[0]->planey = -0.66;
+		ray[0]->planey = -0.40;
 		if (c == 'N')
 		{
 			ray[0]->dirx = -1;
-			ray[0]->planey = 0.66;
+			ray[0]->planey = 0.4;
 		}
 	}
 	if (c == 'E' || c == 'W')
 	{
 		ray[0]->dirx = 0;
 		ray[0]->diry = 1;
-		ray[0]->planex = 0.66;
+		ray[0]->planex = 0.4;
 		ray[0]->planey = 0;
 		if (c == 'W')
 		{
 			ray[0]->diry = -1;
-			ray[0]->planex = -0.66;
+			ray[0]->planex = -0.4;
 		}
 	}
 }
