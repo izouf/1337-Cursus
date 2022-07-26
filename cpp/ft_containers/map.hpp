@@ -5,7 +5,7 @@
                      typename Compare,
                      typename Alloc
 
-#define MAP_CLAS map <Key, T, Compare, Alloc>
+#define MAP_CLASS map <Key, T, Compare, Alloc>
 
 #include <functional>
 #include <memory>
