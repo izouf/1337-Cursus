@@ -260,9 +260,9 @@ namespace ft
     ft::pair<typename MAP_CLASS::const_iterator, typename MAP_CLASS::const_iterator>
     MAP_CLASS::equal_range(const key_type &k) const
     {
-        const_iterator lower_bound = lower_bound(k);
-        const_iterator upper_bound = upper_bound(k);
-        return (ft::make_pair(lower_bound, upper_bound));
+        const_iterator lowerBound = lower_bound(k);
+        const_iterator upperBound = upper_bound(k);
+        return (ft::make_pair(lowerBound, upperBound));
     }
 
     template <MAP_TEMPLATE>

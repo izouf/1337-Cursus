@@ -6,7 +6,7 @@
 /*   By: izouf <izouf@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/14 16:11:17 by momayaz           #+#    #+#             */
-/*   Updated: 2022/04/26 17:27:38 by izouf            ###   ########.fr       */
+/*   Updated: 2022/07/27 11:26:43 by izouf            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,11 +70,11 @@ void	ft_firstcheck(t_cub *all, char c)
 {
 	if (all->info.test[(int)c] == 0)
 		all->info.test[(int)c] += 1;
-	else if (c && c != '1')
-	{
-		printf("double symbol %c ", c);
-		exit(1);
-	}
+	// else if (c && c != '1')
+	// {
+	// 	printf("double symbol %c ", c);
+	// 	exit(1);
+	// }
 	if (c == '1')
 	{
 		if (!(all->info.test[(int) 'N'] == 1 && all->info.test[(int) 'W'] == 1
@@ -82,7 +82,7 @@ void	ft_firstcheck(t_cub *all, char c)
 				== 1 && all->info.test[(int) 'F'] == 1
 				&& all->info.test[(int) 'C'] == 1))
 		{
-			printf("map error1");
+			// printf("map error1");
 			exit(1);
 		}
 	}

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   check_clr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: momayaz <momayaz@student.42.fr>            +#+  +:+       +#+        */
+/*   By: izouf <izouf@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/21 21:39:19 by momayaz           #+#    #+#             */
-/*   Updated: 2022/04/26 16:36:46 by momayaz          ###   ########.fr       */
+/*   Updated: 2022/07/27 11:26:52 by izouf            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	check_charm(t_cub *a, char c)
 		free(a->info.s);
 		free(a->info.e);
 		free(a->info.w);
-		exit(printf("map error1"));
+	// 	exit(printf("map error1"));
 	}
 }
 

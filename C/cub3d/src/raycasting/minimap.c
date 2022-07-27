@@ -6,7 +6,7 @@
 /*   By: izouf <izouf@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/25 23:04:46 by momayaz           #+#    #+#             */
-/*   Updated: 2022/04/26 11:18:10 by izouf            ###   ########.fr       */
+/*   Updated: 2022/07/27 11:28:29 by izouf            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ void	pixel_put_mini(t_win *win, int x, int y, int color)
 	char	*dst;
 
 	dst = win->mini.addr + (x * (win->mini.bpp / 8) + y * win->mini.line_l);
+	puts(dst);
 	*(int *)dst = color;
 }
 
